@@ -1,0 +1,28 @@
+/* [project]/Desktop/private/portfolio-chanilkang/src/app/pretendard_659ba354.module.css [app-client] (css) */
+@font-face {
+  font-family: pretendard;
+  src: url("../media/PretendardVariable-s.p.77d5d991.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: pretendard Fallback;
+  src: local(Arial);
+  ascent-override: 93.76%;
+  descent-override: 23.75%;
+  line-gap-override: 0.0%;
+  size-adjust: 101.55%;
+}
+
+.pretendard_659ba354-module__QQrZ1a__className {
+  font-family: pretendard, pretendard Fallback;
+  font-style: normal;
+}
+
+.pretendard_659ba354-module__QQrZ1a__variable {
+  --font-pretendard: "pretendard", "pretendard Fallback";
+}
+
+/*# sourceMappingURL=3d860_private_portfolio-chanilkang_src_app_pretendard_659ba354_module_css_bad6b30c._.single.css.map*/

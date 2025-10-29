@@ -1,0 +1,91 @@
+/* [project]/Desktop/private/portfolio-chanilkang/src/app/pretendard_409ac1ad.module.css [app-client] (css) */
+@font-face {
+  font-family: pretendard;
+  src: url("../media/PretendardVariable-s.p.77d5d991.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: pretendard;
+  src: url("../media/PretendardVariable-s.p.77d5d991.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: pretendard;
+  src: url("../media/PretendardVariable-s.p.77d5d991.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: pretendard;
+  src: url("../media/PretendardVariable-s.p.77d5d991.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: pretendard;
+  src: url("../media/PretendardVariable-s.p.77d5d991.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: pretendard;
+  src: url("../media/PretendardVariable-s.p.77d5d991.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: pretendard;
+  src: url("../media/PretendardVariable-s.p.77d5d991.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: pretendard;
+  src: url("../media/PretendardVariable-s.p.77d5d991.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: pretendard;
+  src: url("../media/PretendardVariable-s.p.77d5d991.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: pretendard Fallback;
+  src: local(Arial);
+  ascent-override: 93.76%;
+  descent-override: 23.75%;
+  line-gap-override: 0.0%;
+  size-adjust: 101.55%;
+}
+
+.pretendard_409ac1ad-module__kD-Z8W__className {
+  font-family: pretendard, pretendard Fallback;
+}
+
+.pretendard_409ac1ad-module__kD-Z8W__variable {
+  --font-pretendard: "pretendard", "pretendard Fallback";
+}
+
+/*# sourceMappingURL=3d860_private_portfolio-chanilkang_src_app_pretendard_409ac1ad_module_css_bad6b30c._.single.css.map*/

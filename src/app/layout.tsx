@@ -1,15 +1,21 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const pretendard = localFont({
+  src: [
+    { path: "./_fonts/PretendardVariable.woff2", weight: "100", style: "normal" },
+    { path: "./_fonts/PretendardVariable.woff2", weight: "200", style: "normal" },
+    { path: "./_fonts/PretendardVariable.woff2", weight: "300", style: "normal" },
+    { path: "./_fonts/PretendardVariable.woff2", weight: "400", style: "normal" },
+    { path: "./_fonts/PretendardVariable.woff2", weight: "500", style: "normal" },
+    { path: "./_fonts/PretendardVariable.woff2", weight: "600", style: "normal" },
+    { path: "./_fonts/PretendardVariable.woff2", weight: "700", style: "normal" },
+    { path: "./_fonts/PretendardVariable.woff2", weight: "800", style: "normal" },
+    { path: "./_fonts/PretendardVariable.woff2", weight: "900", style: "normal" },
+  ],
+  variable: "--font-pretendard",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -23,10 +29,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="ko">
+      <head>
+        <link
+          rel="stylesheet"
+          as="style"
+          crossOrigin=""
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
+        />
+      </head>
+      <body className={`${pretendard.variable} font-pretendard antialiased`}>
         {children}
       </body>
     </html>
