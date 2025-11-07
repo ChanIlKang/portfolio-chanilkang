@@ -43,7 +43,7 @@ const Header = ()=>{
             const handleScroll = {
                 "Header.useEffect.handleScroll": ()=>{
                     const scrollTop = window.scrollY;
-                    setIsScrolled(scrollTop > window.innerHeight / 2);
+                    setIsScrolled(scrollTop > window.innerHeight * 0.2);
                 }
             }["Header.useEffect.handleScroll"];
             window.addEventListener("scroll", handleScroll);
@@ -54,137 +54,118 @@ const Header = ()=>{
     }["Header.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
         id: "header",
-        className: "w-full fixed top-0",
-        children: !isScrolled ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-[1080px] h-16 flex justify-start items-center mx-auto",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "font-bold text-2xl text-black",
-                    children: "강찬일 포트폴리오"
-                }, void 0, false, {
-                    fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                    lineNumber: 46,
-                    columnNumber: 11
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex justify-start items-center ml-auto gap-4",
-                    children: sectionList.map((section)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: section.href,
-                            children: section.name
-                        }, section.name, false, {
-                            fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                            lineNumber: 49,
-                            columnNumber: 15
-                        }, ("TURBOPACK compile-time value", void 0)))
-                }, void 0, false, {
-                    fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                    lineNumber: 47,
-                    columnNumber: 11
-                }, ("TURBOPACK compile-time value", void 0))
-            ]
-        }, void 0, true, {
-            fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-            lineNumber: 45,
-            columnNumber: 9
-        }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-[1080px] h-16 bg-transparent flex justify-between items-center mx-auto",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "font-bold text-2xl",
-                    children: "KCI"
-                }, void 0, false, {
-                    fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                    lineNumber: 57,
-                    columnNumber: 11
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "relative",
-                    onClick: ()=>setIsMenuOpen(!isMenuOpen),
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col gap-1 cursor-pointer",
-                            onClick: ()=>setIsMenuOpen(!isMenuOpen),
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "block w-6 h-1 bg-black"
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                                    lineNumber: 62,
-                                    columnNumber: 15
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "block w-6 h-1 bg-black"
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                                    lineNumber: 63,
-                                    columnNumber: 15
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "block w-6 h-1 bg-black"
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                                    lineNumber: 64,
-                                    columnNumber: 15
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                            lineNumber: 59,
-                            columnNumber: 13
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col justify-start items-center gap-4 absolute top-[-24px] right-[-16px] w-50 p-4 ".concat(isMenuOpen ? "bg-white" : "sr-only"),
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative w-full p-4",
-                                    onClick: ()=>setIsMenuOpen(!isMenuOpen),
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "absolute w-6 h-1 bg-black rotate-45 right-0"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                                            lineNumber: 73,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "absolute w-6 h-1 bg-black -rotate-45 right-0"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                                            lineNumber: 74,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                                    lineNumber: 70,
-                                    columnNumber: 15
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                sectionList.map((section)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+        className: "w-full fixed top-0 z-100",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+            className: "navbar",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "header-container h-16 flex justify-between items-center mx-auto",
+                children: [
+                    !isScrolled ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                        className: "text-2xl font-bold text-accent animate-[fade-in_.28s_ease-out]",
+                        children: "강찬일 포트폴리오"
+                    }, "top", false, {
+                        fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
+                        lineNumber: 47,
+                        columnNumber: 13
+                    }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                        className: "text-3xl font-bold text-primary animate-[fade-in_.28s_ease-out]",
+                        children: "KCI"
+                    }, "scrolled", false, {
+                        fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
+                        lineNumber: 53,
+                        columnNumber: 13
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative",
+                        children: [
+                            !isMenuOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col gap-1 justify-center  h-6 cursor-pointer",
+                                onClick: ()=>setIsMenuOpen(!isMenuOpen),
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "block w-6 h-0.5 bg-accent"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
+                                        lineNumber: 64,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "block w-6 h-0.5 bg-accent"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
+                                        lineNumber: 65,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "block w-6 h-0.5 bg-accent"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
+                                        lineNumber: 66,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
+                                lineNumber: 61,
+                                columnNumber: 15
+                            }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "relative w-6 h-6 cursor-pointer",
+                                onClick: ()=>setIsMenuOpen(!isMenuOpen),
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "absolute top-1/2 left-1/2 w-6 h-0.5 bg-accent -translate-x-1/2 -translate-y-1/2 rotate-45"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
+                                        lineNumber: 72,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "absolute top-1/2 left-1/2 w-6 h-0.5 bg-accent -translate-x-1/2 -translate-y-1/2 -rotate-45"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
+                                        lineNumber: 73,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
+                                lineNumber: 69,
+                                columnNumber: 15
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col gap-1 absolute top-[-12px] right-[-12px] bg-foreground text-black py-10 px-6 z-[-1] ".concat(isMenuOpen ? 'animate-[fade-in_.28s_ease-out]' : 'sr-only'),
+                                children: sectionList.map((section)=>{
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$private$2f$portfolio$2d$chanilkang$2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$6_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: section.href,
-                                        className: "text-black text-sm w-full",
+                                        className: "text-accent text-lg w-40 px-2 py-1 hover:bg-accent hover:text-foreground",
                                         children: section.name
                                     }, section.name, false, {
                                         fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                                        lineNumber: 77,
-                                        columnNumber: 17
-                                    }, ("TURBOPACK compile-time value", void 0)))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                            lineNumber: 66,
-                            columnNumber: 13
-                        }, ("TURBOPACK compile-time value", void 0))
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-                    lineNumber: 58,
-                    columnNumber: 11
-                }, ("TURBOPACK compile-time value", void 0))
-            ]
-        }, void 0, true, {
+                                        lineNumber: 79,
+                                        columnNumber: 19
+                                    }, ("TURBOPACK compile-time value", void 0));
+                                })
+                            }, void 0, false, {
+                                fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
+                                lineNumber: 76,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
+                        lineNumber: 59,
+                        columnNumber: 11
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
+                lineNumber: 45,
+                columnNumber: 9
+            }, ("TURBOPACK compile-time value", void 0))
+        }, void 0, false, {
             fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",
-            lineNumber: 56,
-            columnNumber: 9
+            lineNumber: 44,
+            columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/Desktop/private/portfolio-chanilkang/src/app/components/Header.tsx",

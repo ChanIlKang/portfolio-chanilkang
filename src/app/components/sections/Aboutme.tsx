@@ -1,64 +1,71 @@
 const Aboutme = () => {
   const aboutmeData = [
     {
-      icon: "👤",
-      title: "이름",
+      title: "Name",
       description: "강찬일",
     },
     {
-      icon: "👤",
-      title: "생년월일",
+      title: "Birth",
       description: "1990.10.23",
     },
     {
-      icon: "👤",
-      title: "사는곳",
+      title: "Location",
       description: "인천광역시 부평구",
     },
     {
-      icon: "👤",
-      title: "최종학력",
+      title: "Education",
       description: "홍익대학교 게임소프트웨어학과",
     },
     {
-      icon: "👤",
-      title: "연락처",
+      title: "Phone",
       description: "010-7511-8691",
     },
     {
-      icon: "👤",
-      title: "이메일",
+      title: "Email",
       description: "programmer.chanil@gmail.com",
     },
     {
-      icon: "👤",
-      title: "깃허브",
-      description: "https://github.com/chanilkang",
+      title: "GitHub",
+      description: "github.com/chanilkang",
+      link: "https://github.com/chanilkang",
     },
     {
-      icon: "👤",
-      title: "개인 사이트",
-      description: "https://domathang.com",
+      title: "Website",
+      description: "domathang.com",
+      link: "https://domathang.com",
     },
   ];
+
   return (
-    <div className="w-full bg-green-200">
+    <section className="aspect-[16/9] bg-background">
       <div
         id="aboutme"
-        className="max-w-[1080px] h-screen bg-red-300 mx-auto pt-16 px-6 pb-6 flex flex-col justify-center items-center">
-        <h1 className="mb-12 text-4xl font-bold">ABOUT ME</h1>
-        <div className="grid grid-cols-4 gap-4">
-          {aboutmeData.map((item) => (
-            <div
-              key={item.title}
-              className="flex flex-col justify-center items-center">
-              <span className="font-bold text-xl text-black">{item.title}</span>
-              <a>{item.description}</a>
-            </div>
-          ))}
+        className="container mx-auto w-full h-full flex items-center text-primary">
+        <div className="w-full">
+          <h1 className="mb-16 text-6xl font-bold text-accent">ABOUT ME</h1>
+          <div className="grid grid-cols-2 gap-12">
+            {aboutmeData.map((item) => (
+              <div key={item.title} className="flex flex-col gap-2">
+                <span className="text-accent-500 text-sm font-semibold tracking-tight uppercase">
+                  {item.title}
+                </span>
+                {item.link ? (
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary text-lg hover:text-accent transition-colors duration-200">
+                    {item.description}
+                  </a>
+                ) : (
+                  <p className="text-primary text-lg">{item.description}</p>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

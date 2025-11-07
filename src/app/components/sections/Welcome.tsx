@@ -1,13 +1,40 @@
+import Image from "next/image";
+
 const Welcome = () => {
   return (
-    <div className="w-full bg-green-200">
-      <div id="welcome" className="max-w-[1080px] h-screen bg-blue-300 mx-auto pt-16 px-6 pb-6 flex flex-col justify-center items-center">
-        <h1 className="mb-8 text-4xl font-bold">강찬일</h1>
-        <p className="text-lg">프론트엔드 개발자 포트폴리오</p>
-
-        <p className="text-lg">안녕하세요, 근본적인 것에 집중하는 문제 해결 개발자 강찬일입니다.</p>
+    <section className="aspect-[16/9] bg-black">
+      <div className="container mx-auto w-full h-full flex items-center justify-between text-white">
+        <div>
+          <div className="grid grid-cols-2 gap-12">
+            <div className="flex flex-col gap-12 justify-center">
+              <h1 className="text-6xl font-bold text-accent">
+                Frontend
+                <br />
+                Developer<i className="animate-pulse ">.</i>
+              </h1>
+              <p className="text-md text-accent-100">
+                I am a frontend developer with a passion for creating beautiful
+                and functional web applications.
+              </p>
+            </div>
+            <div className="relative ml-auto pr-12">
+              <Image
+                src="/imgs/profile-img.jpg"
+                alt="profile"
+                width={240}
+                height={240}
+                className="z-[1] relative"
+              />
+              <div className="absolute top-8 left-8 w-60 h-80 border-2 opacity-50"></div>
+            </div>
+          </div>
+          <div className="flex gap-10">
+            <p className="text-accent-400 w-60 tracking-tight text-sm">Highly skilled at progressive enhancement and UI UX engineering.</p>
+            <p className="text-accent-400 w-60 tracking-tight text-sm">Currently developing services for translators and reviewers at Lexcode.</p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

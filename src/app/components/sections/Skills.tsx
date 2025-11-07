@@ -48,57 +48,42 @@ const Skills = () => {
     },
   ];
 
+  const skillCategories = [
+    { label: "Languages", items: languages },
+    { label: "Frontend", items: frontend },
+    { label: "Backend", items: backend },
+    { label: "DevOps", items: devOps },
+  ];
+
   return (
-    <div id="skills" className="w-full bg-green-200">
-      <div
-        id="welcome"
-        className="max-w-[1080px] h-screen bg-orange-300 mx-auto pt-16 px-6 pb-6 flex flex-col justify-center items-center">
-        <h1 className="mb-8 text-4xl font-bold">SKILLS</h1>
-        <div className="grid gap-4" style={{ gridTemplateColumns: "1fr 3fr" }}>
-          <p className="flex items-center">Languages</p>
-          <div className="flex justify-start gap-2">
-            {languages.map((language) => (
-              <div
-                key={language.name}
-                className={`${language.bgColor} w-xxs h-fit px-4 py-2 text-center font-semibold rounded-lg ${language.name === "JavaScript" ? "text-black" : "text-white"}`}>
-                {language.name}
-              </div>
-            ))}
-          </div>
-          <p className="flex items-center">Frontend</p>
-          <div className="flex justify-start gap-2">
-            {frontend.map((frontend) => (
-              <div
-                key={frontend.name}
-                className={`${frontend.bgColor} w-xxs h-fit px-4 py-2 text-center font-semibold text-white rounded-lg`}>
-                {frontend.name}
-              </div>
-            ))}
-          </div>
-          <p className="flex items-center">Backend</p>
-          <div className="flex justify-start gap-2">
-            {backend.map((backend) => (
-              <div
-                key={backend.name}
-                className={`${backend.bgColor} w-xxs h-fit px-4 py-2 text-center font-semibold text-white rounded-lg`}>
-                {backend.name}
-              </div>
-            ))}
-          </div>
-          <p className="flex items-center">DevOps</p>
-          <div className="flex justify-start gap-2">
-            {devOps.map((devOp) => (
-              <div
-                key={devOp.name}
-                className={`${devOp.bgColor} w-xxs h-fit px-4 py-2 text-center font-semibold text-white rounded-lg`}>
-                {devOp.name}
+    <section id="skills" className="aspect-[16/9] bg-black">
+      <div className="container mx-auto w-full h-full flex items-center text-white">
+        <div className="w-full">
+          <h1 className="mb-16 text-6xl font-bold text-accent">SKILLS</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {skillCategories.map((category) => (
+              <div key={category.label} className="flex flex-col gap-4">
+                <span className="text-accent-400 text-sm tracking-tight uppercase">
+                  {category.label}
+                </span>
+                <div className="flex flex-wrap gap-2">
+                  {category.items.map((item) => (
+                    <div
+                      key={item.name}
+                      className={`${item.bgColor} px-4 py-2 text-center font-semibold rounded-lg ${
+                        item.name === "JavaScript" ? "text-black" : "text-white"
+                      }`}>
+                      {item.name}
+                    </div>
+                  ))}
+                </div>
               </div>
             ))}
           </div>
         </div>
       </div>
-    </div>         
-  );          
+    </section>
+  );
 };
 
 export default Skills;
