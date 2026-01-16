@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/chanilkang/workspace/portfolio-chanilkang/src/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <main className=\"h-screen w-full bg-black flex items-center justify-center\">\n      <div className=\"relative w-[70vw] max-w-2xl aspect-square\">\n        <Image\n          src=\"/imgs/dmt-glassmorphism.png\"\n          alt=\"CIK Logo\"\n          fill\n          priority\n          className=\"object-contain\"\n        />\n      </div>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,sRAAC;QAAK,WAAU;kBACd,cAAA,sRAAC;YAAI,WAAU;sBACb,cAAA,sRAAC,gLAAK;gBACJ,KAAI;gBACJ,KAAI;gBACJ,IAAI;gBACJ,QAAQ;gBACR,WAAU;;;;;;;;;;;;;;;;AAKpB","debugId":null}}]
+}

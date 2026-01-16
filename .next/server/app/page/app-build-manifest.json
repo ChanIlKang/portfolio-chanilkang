@@ -1,23 +1,23 @@
 {
   "pages": {
     "/page": [
-      "static/chunks/761fa_next_dist_a262d5d1._.js",
-      "static/chunks/Desktop_private_portfolio-chanilkang_src_app_favicon_ico_mjs_a99a5766._.js",
-      "static/chunks/Desktop_private_portfolio-chanilkang_src_app_3e78f5bd._.css",
-      "static/chunks/Desktop_private_portfolio-chanilkang_src_app_layout_tsx_8c9f02da._.js",
-      "static/chunks/761fa_next_dist_client_components_builtin_global-error_2c396b37.js",
-      "static/chunks/761fa_next_dist_aeb4cc13._.js",
-      "static/chunks/Desktop_private_portfolio-chanilkang_src_app_components_Header_tsx_71bcc979._.js",
-      "static/chunks/Desktop_private_portfolio-chanilkang_src_app_page_tsx_2c396b37._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_e26436d5._.js",
-      "static/chunks/761fa_next_dist_compiled_react-dom_545b8037._.js",
-      "static/chunks/761fa_next_dist_compiled_next-devtools_index_9ba61387.js",
-      "static/chunks/761fa_next_dist_compiled_88a34c6d._.js",
-      "static/chunks/761fa_next_dist_client_c8d3c099._.js",
-      "static/chunks/761fa_next_dist_7e2d1717._.js",
-      "static/chunks/cdc0e_@swc_helpers_cjs_3679bbc1._.js",
-      "static/chunks/Desktop_private_portfolio-chanilkang_a0ff3932._.js",
-      "static/chunks/turbopack-Desktop_private_portfolio-chanilkang_b484446e._.js"
+      "static/chunks/8c91f_next_dist_9fd26765._.js",
+      "static/chunks/workspace_portfolio-chanilkang_src_app_favicon_ico_mjs_fe2834f2._.js",
+      "static/chunks/workspace_portfolio-chanilkang_src_app_a234979c._.css",
+      "static/chunks/workspace_portfolio-chanilkang_src_app_layout_tsx_162c9aa4._.js",
+      "static/chunks/8c91f_next_dist_client_components_builtin_global-error_d35d74ba.js",
+      "static/chunks/8c91f_e3f08abe._.js",
+      "static/chunks/workspace_portfolio-chanilkang_src_app_page_tsx_aefedb20._.js",
+      "static/chunks/workspace_portfolio-chanilkang_src_app_page_tsx_d35d74ba._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_0e0ef90f._.js",
+      "static/chunks/8c91f_next_dist_compiled_react-dom_30d330de._.js",
+      "static/chunks/8c91f_next_dist_compiled_next-devtools_index_366472aa.js",
+      "static/chunks/8c91f_next_dist_compiled_5597be20._.js",
+      "static/chunks/8c91f_next_dist_client_556436e8._.js",
+      "static/chunks/8c91f_next_dist_75f4629e._.js",
+      "static/chunks/8c91f_@swc_helpers_cjs_63f0c6a6._.js",
+      "static/chunks/workspace_portfolio-chanilkang_a0ff3932._.js",
+      "static/chunks/turbopack-workspace_portfolio-chanilkang_dc5a4db9._.js"
     ]
   }
 }
